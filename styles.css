@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+/* Sección contenedora de las imágenes, alineadas horizontalmente */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Agrega un poco de espacio debajo de la barra de navegación */
+}
+
+/* Estilo para cada contenedor de imagen y texto */
+.image-container {
+    text-align: center;
+    max-width: 300px;
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Estilo para las imágenes */
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo para el texto debajo de cada imagen */
+figcaption {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+
+/* Sección con imagen de fondo */
+.background-section-foto {
+    background-image: url('https://via.placeholder.com/1600x600.png?text=Fondo+de+sección');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Ajusta el padding para el texto */
+}
+
+
+
+/* Sección con imagen de fondo */
+.background-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Ajusta el padding para el texto */
+}
+
+.background-section .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparente para que el texto se vea sobre la imagen */
+    padding: 50px;
+}
+
+.background-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.background-section p {
+    font-size: 20px;
+}
+
+/* Estilos para el pie de página (footer) */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
